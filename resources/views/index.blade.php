@@ -90,7 +90,7 @@ darkmode.showWidget();
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="pages/jobs.html">jobs</a>
+                <a class="nav-link active" href="/jobs">jobs</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="pages/hire.html">hire</a>
