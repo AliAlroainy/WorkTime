@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('master');
+    return view('front.master');
 });
 
 Route::get('/about', function () {
@@ -58,6 +58,10 @@ Route::get('/profile', function () {
     return view('pages.profile');
 });
 
+
+Route::get('/admin', function () {
+    return view('admin.admin');
+});
 
 
 
