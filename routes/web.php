@@ -14,5 +14,54 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.master');
 });
+
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+Route::get('/hire', function () {
+    return view('pages.hire');
+});
+
+Route::get('/jobDetails', function () {
+    return view('pages.jobDetails');
+});
+
+Route::get('/jobs', function () {
+    return view('pages.jobs');
+});
+
+Route::get('/partners', function () {
+    return view('pages.partners');
+});
+
+Route::get('/profile', function () {
+    return view('pages.profile');
+});
+
+Route::get('/services', function () {
+    return view('pages.services');
+});
+
+Route::get('/singin', function () {
+    return view('pages.singin');
+});
+
+
+Route::get('/profile', function () {
+    return view('pages.profile');
+});
+
+
+Route::get('/admin', function () {
+    return view('admin.admin');
+});
+
+
+
