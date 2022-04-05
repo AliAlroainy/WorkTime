@@ -14,43 +14,43 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('master');
 });
 
 Route::get('/about', function () {
-    return view('pages/about');
+    return view('pages.about');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('pages.contact');
 });
 
 Route::get('/hire', function () {
-    return view('hire');
+    return view('pages.hire');
 });
 
 Route::get('/jobDetails', function () {
-    return view('jobDetails');
+    return view('pages.jobDetails');
 });
 
 Route::get('/jobs', function () {
-    return view('jobs');
+    return view('pages.jobs');
 });
 
 Route::get('/partners', function () {
-    return view('partners');
+    return view('pages.partners');
 });
 
 Route::get('/profile', function () {
-    return view('profile');
+    return view('pages.profile');
 });
 
 Route::get('/services', function () {
-    return view('services');
+    return view('pages.services');
 });
 
 Route::get('/singin', function () {
-    return view('singin');
+    return view('pages.singin');
 });
 
 

@@ -1,3 +1,6 @@
+@yield('header');
+
+  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -85,7 +88,7 @@ darkmode.showWidget();
           <div class="container">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a class="nav-link active" aria-current="page" href="/"
                   >Home</a
                 >
               </li>
@@ -93,16 +96,16 @@ darkmode.showWidget();
                 <a class="nav-link active" href="/jobs">jobs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="pages/hire.html">hire</a>
+                <a class="nav-link active" href="/hire">hire</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/about.html">about</a>
+                <a class="nav-link" href="/about">about</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/services.html">services</a>
+                <a class="nav-link" href="/services">services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/contact.html">contact</a>
+                <a class="nav-link" href="/contact">contact</a>
               </li>
               <li class="nav-item">
                 <i class="bi bi-translate nav-link"></i>
@@ -142,7 +145,7 @@ darkmode.showWidget();
           <div class="nav-item m-3">
             <a
               class="nav-link btn"
-              href="pages/singin.html"
+              href="/singin"
               style="text-decoration: none"
               >Login</a
             >
@@ -153,6 +156,10 @@ darkmode.showWidget();
     </nav>
 
     <!--------------------------  end header ---------------------------->
+
+
+
+
 
     <div
       class=" p-5 mt-lg-5 m-lg-5 d-flex flex-column align-items-center justify-content-center" style="margin-top: 20px;"
