@@ -54,5 +54,10 @@ Route::get('/singin', function () {
 });
 
 
+Route::get('/profile', function () {
+    return view('pages.profile');
+});
+
+
 
 

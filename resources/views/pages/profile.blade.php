@@ -97,8 +97,8 @@ body{
             <!-- Breadcrumb -->
             <nav aria-label="breadcrumb" class="main-breadcrumb">
               <ol class="breadcrumb" >
-                <li class="breadcrumb-item"><a style="text-decoration: none; color: #ffeba7;" href="../index.html"><i class="bi bi-house-door"></i></a></li>
-                <li class="breadcrumb-item"><a style="text-decoration: none; color: #ffeba7;" href="singin.html"><i class="bi bi-power"></i></a></li>
+                <li class="breadcrumb-item"><a style="text-decoration: none; color: #ffeba7;" href="/"><i class="bi bi-house-door"></i></a></li>
+                <li class="breadcrumb-item"><a style="text-decoration: none; color: #ffeba7;" href="/singin"><i class="bi bi-power"></i></a></li>
 
         
               </ol>

@@ -1,7 +1,3 @@
-@extends('index')
-
-@section('header')
-   
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>workTime</title>
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/serv.css" />
+
+    <link rel="stylesheet" href="css/singup.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+
+
+
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -24,36 +29,7 @@
     />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
-    <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script-->
-    <!-- style> .darkmode-toggle {
-    z-index: 5;
-  }</style>
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script>
-
-    function addDarkmodeWidget() {
-        
-const options = {
-  bottom: '64px', // default: '32px'
-  right: 'unset', // default: '32px'
-  left: '32px', // default: 'unset'
-  time: '0.5s', // default: '0.3s'
-  mixColor: '#fff', // default: '#fff'
-  backgroundColor: '#fff',  // default: '#fff'
-  buttonColorDark: '#100f2c',  // default: '#100f2c'
-  buttonColorLight: '#fff', // default: '#fff'
-  saveInCookies: false, // default: true,
-  label: '🌓', // default: ''
-  autoMatchOsTheme: true // default: true
-
-}
-const darkmode = new Darkmode(options);
-darkmode.showWidget();
-
-  }
-  window.addEventListener('load', addDarkmodeWidget);
-</script-->
+    
 
     <link
       rel="stylesheet"
@@ -65,7 +41,7 @@ darkmode.showWidget();
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
     />
   </head>
-
+  
   <body class="bg-dark">
     <!--------------------------  start header ---------------------------->
 
@@ -159,5 +135,5 @@ darkmode.showWidget();
     <!--------------------------  end header ---------------------------->
 
 
-@endsection
+
 
