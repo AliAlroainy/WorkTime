@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin;
+use App\Http\Controllers\Users;
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+//* The View Routes --------------------------- 
 
 Route::get('/', function () {
     return view('front.master');
@@ -59,9 +66,15 @@ Route::get('/profile', function () {
 });
 
 
-Route::get('/admin', function () {
-    return view('admin.admin');
-});
+// Route::get('/admin', function () {
+//     return view('admin.admin');
+// });
 
 
+//* The Admin Routes --------------------------- 
+
+Route::get('/Dashboard', [Admin::class, 'show']);
+
+
+Route::get('/users', [Users::class, 'show']);
 
