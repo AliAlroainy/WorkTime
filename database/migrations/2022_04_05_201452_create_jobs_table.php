@@ -17,9 +17,12 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name');
+            $table->string('com');
+            $table->string('type');
+            $table->string('salery');
             $table->string('detiles');
-            $table->string('img');
             $table->string('link');
+
 
 
         });
